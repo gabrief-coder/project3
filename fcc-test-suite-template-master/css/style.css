@@ -64,3 +64,31 @@ body {
     display: flex;
     justify-content: center;
 }
+
+#form{
+    display: flex;
+    justify-content: center;
+}
+
+#form-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#submit{
+    margin-top: 10px;
+    background-color: dodgerblue;
+    border-radius: 15px;
+}
+
+#email{
+    background-color: dodgerblue;
+    color: ghostwhite;
+    border-radius: 7px;
+}
+
+#email::placeholder{
+    color: ghostwhite;
+    font-size: 10px;
+}
