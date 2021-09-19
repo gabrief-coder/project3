@@ -1,5 +1,9 @@
 body {
     font-family: 'Oswald', sans-serif;
+    color: #770606;
+    background: rgb(15,28,140);
+    background: radial-gradient(circle, rgba(15,28,140,1) 0%, rgba(4,11,17,1) 65%);
+    padding: 0;
 }
 
 #nav-bar{
@@ -35,4 +39,15 @@ body {
     justify-content: center;
     display: flex;
     margin-top: 70px;
+}
+
+#products{
+    display: flex;
+    justify-content: center;
+}
+
+#video{
+    display: flex;
+    justify-content: center;
+    width: 800px;
 }
