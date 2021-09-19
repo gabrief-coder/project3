@@ -1,9 +1,21 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
 #nav-bar{
     position: fixed;
     top: 0;
     width: 100%;
     display: flex;
     flex-direction: row;
+    background-color: black;
+    justify-content: flex-end;
+    
+}
+
+#nav-bar a{
+   color: blanchedalmond;
+    text-decoration: none;
 }
 
 @media (max-width: 650px){
