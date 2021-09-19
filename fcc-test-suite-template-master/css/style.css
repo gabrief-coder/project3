@@ -20,6 +20,7 @@ body {
 #nav-bar a{
    color: blanchedalmond;
     text-decoration: none;
+    padding-right: 20px;
 }
 
 @media (max-width: 650px){
@@ -39,6 +40,7 @@ body {
     justify-content: center;
     display: flex;
     margin-top: 70px;
+    margin-right: 100px;
 }
 
 #products{
@@ -50,4 +52,15 @@ body {
     display: flex;
     justify-content: center;
     width: 800px;
+    margin-left: 50px;
+}
+
+#features {
+    display: flex;
+    justify-content: center;
+}
+
+#about-us{
+    display: flex;
+    justify-content: center;
 }
